@@ -1,7 +1,20 @@
 //Programa que pida dos numeros y nos diga cual es el mayor, el menor y si son iguales
+//Si los numeros son menores a cero o no es un numero que lo vuelva a pedir
 
-var num1 = prompt("Escribe el primer numero")
-var num2 = prompt("Escribe el segundo numero")
+while(num1 <= 0 || isNaN(num1))
+{
+    var num1 = Number(prompt("Escribe el primer numero",0));
+    if(num1<=0 || isNaN(num1)){
+        alert("No esta ingresando un numero o un numero mayor a 0")
+    }   
+}
+while(num2 <= 0 || isNaN(num2))
+{
+    var num2 = Number(prompt("Escribe el segundo numero",0));
+    if(num2<=0 || isNaN(num2)){
+        alert("No esta ingresando un numero o un numero mayor a 0")
+    } 
+}
 
 if(num1  > num2 && num1 != num2){
     alert("Primer numero es "+num1+" es el mayor");

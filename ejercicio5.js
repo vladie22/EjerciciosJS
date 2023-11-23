@@ -2,7 +2,7 @@
 
 var num = Number(prompt("Introducir numero divisor",0));
 var divisor = 0;
-document.write("<h1>El numero a dividir o dividendo: "+num+"</h1>")
+document.write("<h1>El numero a dividir o dividendo: "+num+"</h1>");
 
 for(var i = divisor;divisor<=num;i++){
     var residuo = num%divisor;

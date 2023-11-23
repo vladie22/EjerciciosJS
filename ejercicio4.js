@@ -18,5 +18,4 @@ for(let i = num1+1; i < num2; i++){
     if (par == 0) {
         document.write("<br>"+i+"</br>")
     }
-    
 }

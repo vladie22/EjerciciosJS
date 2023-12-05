@@ -1,4 +1,5 @@
-
+//Hacer una calculadora a partir de dos numeros ingresados por el usuario que pueda
+// sumar, restar, multiplicar y dividir esos dos numeros
 
 while(num1<=0 || isNaN(num1)|| num2<=0 || isNaN(num2)){
     var num1 = Number(prompt("Ingrese el primer numero por favor",0));
